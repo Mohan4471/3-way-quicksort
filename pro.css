@@ -1,0 +1,83 @@
+.mySlides {
+	display: none;
+}
+
+body {
+	/*background-color:red;*/
+	font-family: verdana, sans-serif;
+	height: 100vh;
+}
+
+.head {
+	margin-top: 20px;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgb(161, 91, 161);
+	color: white;
+	border-radius: 19px;
+	font-weight: bolder;
+}
+
+.input_box {
+	margin: 30px 0px 0px 480px;
+}
+
+.input_box #v1, #v2, #v3 {
+	height: 30px;
+	border-radius: 4px;
+	border: 3px solid black;
+}
+
+::placeholder {
+	font-size: 14.5px;
+	color: navy;
+}
+
+.data-container {
+	width: 600px;
+	height: 384px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bar {
+	width: 30px;
+	height: 30pxs;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(0, 183, 255);
+	transition: 0.9 all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -20spx;
+	width: 100%;
+	text-align: left;
+}
+ 
+ 
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 20px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	margin-left: 37vw;
+	margin-top: 4vw;
+	margin-right: 1vw;
+}
+.btn2 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 20px;
+	color: white;
+	font-size: 16px;
+	border: white;
+}

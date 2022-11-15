@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      
+    <!-- title -->
+    <title>3Way Quick sort</title>
+  
+    <!-- linking pro.css -->
+    <link href="pro.css" rel="stylesheet" />
+    <style>
+      body {
+        background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-12-full.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
+      </style>
+  </head>
+  
+  <!-- body -->
+   <body>
+    
+   <section class="head">3 Way QuickSort Visualizer</section>
+
+   <div class="input_box"> 
+   
+    <input type="number" id="v1" placeholder="Enter first number" min="0" >
+    <input type="number" id="v2"placeholder="Enter second number" min="0" >
+    <input type="number" id="v3" placeholder="Enter third number" min="0" >
+  </div>
+   
+  <!-- "Generate New Array" button -->
+   <button  class="btn1" onclick="generate();" id="Button1" >
+    Generate New Array</button>  
+    
+
+  <!-- "threeWayQuickSort" button -->
+  <button class="btn2" 
+  onclick="threeWayQuickSort();disable()" id="Button2" >
+  3 Way QuickSort</button>
+
+
+
+   <section class="data-container"></section> 
+  
+  </body>
+  
+  <!-- linking pro.js -->
+  <script src="pro.js"></script>
+</html>
